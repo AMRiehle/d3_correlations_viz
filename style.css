@@ -1,5 +1,17 @@
-#hairmetal {
-  border-radius: 8px;
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
 }
 
 .chart::before {
@@ -53,4 +65,8 @@
 .inactive:hover {
   fill: #e75480;
   cursor: pointer;
+}
+
+p {
+  text-align: justify;
 }

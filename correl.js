@@ -118,7 +118,7 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
   if (chosenYAxis == "notInLaborForce") {
     var yLabel = "Don't Work:";
   }
-  else if (chosenXAxis == "workInManagementBizScienceArts") {
+  else if (chosenYAxis == "workInManagementBizScienceArts") {
     var yLabel = "Work in MBSA:"
   }
   else {
